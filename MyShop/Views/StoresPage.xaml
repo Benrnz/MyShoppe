@@ -8,7 +8,7 @@
 	IsBusy="{Binding IsBusy}">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="10" Padding="10" IsVisible="{Binding IsBusy}">
+            <StackLayout HorizontalOptions="CenterAndExpand" Spacing="10" Padding="10" IsVisible="{Binding IsBusy}">
                 <StackLayout.Orientation>
                     <OnPlatform x:TypeArguments="StackOrientation" iOS="Horizontal" Android="Horizontal" WinPhone="Vertical"/>               
                 </StackLayout.Orientation>
